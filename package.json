@@ -1,12 +1,11 @@
 {
-  "name": "rebeca-sistema",
-  "version": "2.1.0",
+  "name": "ubmax-sistema-completo",
+  "version": "2.0.0",
+  "description": "UBMAX - Sistema de Transporte Inteligente com REBECA IA",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
-  },
-  "engines": {
-    "node": ">=18.0.0"
+    "start": "node index.js",
+    "dev": "node index.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
@@ -15,5 +14,11 @@
     "jsonwebtoken": "^9.0.2",
     "pg": "^8.11.3",
     "socket.io": "^4.7.2"
-  }
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": ["ubmax", "transporte", "whatsapp", "ia", "corridas"],
+  "author": "UBMAX",
+  "license": "MIT"
 }
